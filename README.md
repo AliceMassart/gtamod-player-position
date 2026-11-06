@@ -2,10 +2,6 @@
 
 Afficher les coordonées (x, y, z) du joueur.
 
-## Démo
-
-<video controls src="player_position.mp4" title="Démo du mod player_position"></video>
-
 ## Fonctionnalités
 
 - Affiche les coordonnées à l'instant T du joueur sur l'écran au format x: ... y: ... z: ...
@@ -23,18 +19,15 @@ Afficher les coordonées (x, y, z) du joueur.
 
 ## Utilisation
 
-```
-> start player_position
-```
+Appuie sur **F4** (ou tape `player_position` dans la console F8) pour afficher ou masquer tes coordonnées (x, y, z) à l'écran.
 
 ## Structure du dossier
 
 ```
-gtamod-change-ped/
+gtamod-player-position/
 ├─ player_position/               -- dossier du mod
 │  ├─ player_position.lua         -- script principal
 │  └─ fxmanifest.lua
-├─ player_position.mp4            -- vidéo de la démo
 └─ README.md
 ```
 
