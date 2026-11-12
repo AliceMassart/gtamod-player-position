@@ -1,10 +1,11 @@
 # GTA MOD : player_position
 
-Afficher les coordonées (x, y, z) du joueur.
+Affiche les coordonnées (x, y, z) du joueur.
 
 ## Fonctionnalités
 
-- Affiche les coordonnées à l'instant T du joueur sur l'écran au format x: ... y: ... z: ...
+- Affiche en bas à droite de l'écran les coordonnées du joueur en temps réel, au format `Joueur : X ... | Y ... | Z ...`
+- Écrit aussi les coordonnées dans la console F8 au moment de l'activation
 
 ## Prérequis
 
@@ -12,10 +13,10 @@ Afficher les coordonées (x, y, z) du joueur.
 
 ## Installation
 
-1. Télécharger le dossier `player_position`
-2. Copier le dossier `player_position` dans `resources/`
-3. Ajouter `ensure player_position` dans ton `server.cfg`
-4. Redémarrer le serveur
+1. Télécharge ce dépôt et renomme le dossier `gtamod-player-position` en `player_position`
+2. Copie le dossier `player_position` dans `resources/`
+3. Ajoute `ensure player_position` dans ton `server.cfg`
+4. Redémarre le serveur
 
 ## Utilisation
 
@@ -24,13 +25,13 @@ Appuie sur **F4** (ou tape `player_position` dans la console F8) pour afficher o
 ## Structure du dossier
 
 ```
-gtamod-player-position/
-├─ player_position/               -- dossier du mod
-│  ├─ player_position.lua         -- script principal
-│  └─ fxmanifest.lua
+player_position/
+├─ client.lua             -- script principal
+├─ fxmanifest.lua
 └─ README.md
 ```
 
 ## Crédits
-Tuto et Mod réalisés par :
+
+Tuto et mod réalisés par :
 Alice MASSART, PAD EMD 2026.
